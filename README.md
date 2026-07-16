@@ -91,6 +91,8 @@ node dist/index.js   # stdio MCP server
 
 Then point your client at `node /path/to/tabler-mcp-server/dist/index.js`.
 
+📘 **New here? Follow the step-by-step [Getting Started guide](docs/GETTING_STARTED.md)** (English & français) — a task-by-task walkthrough of every tool.
+
 ## Example prompts
 
 - *"Build me a Tabler login page in dark mode for 'Acme Cloud'"*
@@ -165,6 +167,8 @@ La recherche d'icônes et les snippets fonctionnent **entièrement hors-ligne** 
   }
 }
 ```
+
+📘 **Nouveau ? Suivez le [guide de démarrage pas à pas](docs/GETTING_STARTED.md)** (anglais & français) — un parcours tâche par tâche de chaque outil.
 
 ### Exemples de prompts
 
