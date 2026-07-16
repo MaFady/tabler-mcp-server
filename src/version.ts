@@ -1,7 +1,7 @@
 /** Central place for Tabler version + CDN URLs used across tools. */
 
 export const SERVER_NAME = "tabler-mcp-server";
-export const SERVER_VERSION = "1.0.0";
+export const SERVER_VERSION = "1.0.1";
 
 /** Version of @tabler/core the snippets and CDN links target. */
 export const TABLER_VERSION = "1.4.0";

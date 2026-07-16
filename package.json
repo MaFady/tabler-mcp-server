@@ -1,7 +1,7 @@
 {
   "name": "tabler-mcp-server",
-  "version": "1.0.0",
-  "mcpName": "io.github.mafady/tabler-mcp-server",
+  "version": "1.0.1",
+  "mcpName": "io.github.MaFady/tabler-mcp-server",
   "description": "MCP server for Tabler.io — search 6,000+ Tabler icons, get UI components, page layouts, themes and docs for AI assistants (Claude, ChatGPT, Cursor...)",
   "type": "module",
   "bin": {

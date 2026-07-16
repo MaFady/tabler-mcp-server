@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.mafady/tabler-mcp-server",
-  "description": "MCP server for Tabler.io — search 5,000+ Tabler icons, get UI components, page layouts, themes and live docs for AI assistants.",
+  "name": "io.github.MaFady/tabler-mcp-server",
+  "description": "Tabler.io for AI assistants: search 5,000+ icons, UI components, layouts, themes and docs.",
   "repository": {
     "url": "https://github.com/MaFady/tabler-mcp-server",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "tabler-mcp-server",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "transport": {
         "type": "stdio"
       }
