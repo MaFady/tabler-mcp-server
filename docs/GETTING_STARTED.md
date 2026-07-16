@@ -134,16 +134,6 @@ Show me what the official Tabler docs say about form validation
 ✅ Expected: `tabler:search_docs` + `tabler:get_docs_page` calls → real content from docs.tabler.io.
 
 ---
-
-## 📸 Sharing with the community
-
-Great moments to screenshot:
-
-1. **Task 2.1** — the `tabler:search_icons` tool-call block with its results (shows the product in action)
-2. **Task 5.2** — the rendered login page in the browser (shows the result)
-3. Both side by side = the perfect "prompt → tool → result" combo
-
----
 ---
 
 # 🇫🇷 Guide de démarrage — version française
@@ -279,16 +269,6 @@ Montre-moi ce que dit la doc officielle Tabler sur la validation de formulaires
 ```
 
 ✅ Attendu : appels `tabler:search_docs` + `tabler:get_docs_page` → contenu réel de docs.tabler.io.
-
----
-
-## 📸 Partager avec la communauté
-
-Les moments à capturer :
-
-1. **Tâche 2.1** — le bloc d'appel `tabler:search_icons` avec ses résultats (montre le produit en action)
-2. **Tâche 5.2** — la page de login rendue dans le navigateur (montre le résultat)
-3. Les deux côte à côte = le combo parfait « prompt → outil → résultat »
 
 ---
 
