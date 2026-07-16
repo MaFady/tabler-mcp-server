@@ -1,0 +1,62 @@
+{
+  "name": "tabler-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Tabler.io — search 6,000+ Tabler icons, get UI components, page layouts, themes and docs for AI assistants (Claude, ChatGPT, Cursor...)",
+  "type": "module",
+  "bin": {
+    "tabler-mcp-server": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tabler",
+    "tabler-icons",
+    "tabler-ui",
+    "bootstrap",
+    "dashboard",
+    "ui-kit",
+    "icons",
+    "claude",
+    "chatgpt",
+    "ai",
+    "llm"
+  ],
+  "author": "Mafady AI Studio (supervised by Dr Maher)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaFady/tabler-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaFady/tabler-mcp-server/issues"
+  },
+  "homepage": "https://github.com/MaFady/tabler-mcp-server#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@tabler/icons": "^3.44.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
